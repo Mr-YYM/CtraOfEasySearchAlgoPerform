@@ -2,7 +2,7 @@
 public class BruteForceSearch {
     public static Comparable rank(Comparable key, Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
-            if(a[i]==key) {
+            if(a[i].equals(key)) {
                 return a[i];
             }
         }
@@ -10,6 +10,6 @@ public class BruteForceSearch {
     }
 
     public static void main(String[] args) {
-        System.out.println(rank(2, new Integer[]{1, 2, 3}));
+        System.out.println(rank(1230, new Integer[]{1230, 2, 3}));
     }
 }
