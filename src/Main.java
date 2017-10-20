@@ -1,9 +1,8 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int n = 10000;
+        int n = 25000;
         Integer[] arr = SearchTestHelper.generateRandomArray(n, 1, 30000 );
         Integer[] keys = SearchTestHelper.generateRandomArray(n, 1, 30000 );
         Arrays.sort(arr);

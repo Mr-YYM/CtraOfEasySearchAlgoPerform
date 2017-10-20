@@ -6,3 +6,6 @@ Bug:BruteForceSearch 在调用的时候，如果传入的是自己生成的数�
 
 ## 20171019
 总算把这个Bug给修好了
+
+## 20171020
+对BinarySearch进行了完善
