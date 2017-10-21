@@ -28,12 +28,14 @@ public class BinarySearch {
     public static void main(String[] args) {
         Integer[] keys = new Integer[]{0,2,4,6,8,10,12,14};
         Integer[] a = new Integer[]{1,2,3,4,5,6,7,8,9,10};
-        for (int key : keys) {
-            if(rank(key, a) != -1){
-                System.out.printf("找到了%d\n",key);
+        Double[] dkeys = new Double[]{1.1,22.1,1.3};
+        Double[] b = new Double[]{1.1,2.2,3.3};
+        for (Double key : dkeys) {
+            if(rank(key, b) != -1){
+                System.out.printf("找到了%.1f\n",key);
             }
             else {
-                System.out.printf("没找到%d\n",key);
+                System.out.printf("没找到%.1f\n",key);
             }
         }
     }

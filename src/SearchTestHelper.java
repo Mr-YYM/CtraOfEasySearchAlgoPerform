@@ -6,7 +6,7 @@ public class SearchTestHelper {
         Integer[] arr = new Integer[n];
 
         for (int i = 0; i < n; i++) {
-            arr[i] = new Integer((int)(Math.random()*(rangeR+1-rangeL)+rangeL));
+            arr[i] = (int) (Math.random() * (rangeR + 1 - rangeL) + rangeL);
         }
 
         return arr;

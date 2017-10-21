@@ -9,16 +9,16 @@ public class Main {
 
 //        BinarySearch part
         long start = System.currentTimeMillis();
-        for (int i = 0; i < keys.length; i++) {
-            BinarySearch.rank(keys[i],arr);
+        for (Integer key : keys) {
+            BinarySearch.rank(key, arr);
         }
         long end = System.currentTimeMillis();
         System.out.printf("BinarySearch:%d ms\n",(end-start));
 
         //BruteForceSearch part
         start = System.currentTimeMillis();
-        for (int i = 0; i < keys.length; i++) {
-            BruteForceSearch.rank(keys[i],arr);
+        for (Integer key : keys) {
+            BruteForceSearch.rank(key, arr);
         }
         end = System.currentTimeMillis();
         System.out.printf("BruteForceSearch:%d ms",(end-start));
