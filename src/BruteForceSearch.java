@@ -8,6 +8,4 @@ public class BruteForceSearch {
         }
         return -1;
     }
-
-
 }
